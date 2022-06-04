@@ -4,8 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9cb3c82-ef11-4df1-a3a1-34816a441590" name="Changes" comment="Initial commit.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f9cb3c82-ef11-4df1-a3a1-34816a441590" name="Changes" comment="added run.bat&#10;updated version">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-downloader/clicker.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-downloader/libJNativeHook.x86_64.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-downloader/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-downloader/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-downloader/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/syspoe/KeyInjector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/syspoe/KeyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/syspoe/KeyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auto-clicker-1.0-SNAPSHOT-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/auto-clicker-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/syspoe/AutoClicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/syspoe/AutoClicker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/syspoe/Clicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/syspoe/Clicker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/syspoe/KeyInjector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/syspoe/KeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/syspoe/KeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/run.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +54,28 @@
     </option>
   </component>
   <component name="ProjectId" id="2A3gMuI87PrbGynla1FkiJorMhB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/syspoe/projects/4friends/alex/auto-cliker-for-alex&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/syspoe/projects/4friends/alex/auto-cliker-for-alex",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="compile &amp; package" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -90,7 +115,7 @@
       <updated>1654243639275</updated>
       <workItem from="1654243640874" duration="2569000" />
       <workItem from="1654302641962" duration="3899000" />
-      <workItem from="1654307852754" duration="336000" />
+      <workItem from="1654307852754" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1654308027252</created>
@@ -99,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654308027252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added run.bat&#10;updated version">
+      <created>1654308286488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654308286488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +149,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="added run.bat&#10;updated version" />
+    <option name="LAST_COMMIT_MESSAGE" value="added run.bat&#10;updated version" />
   </component>
 </project>

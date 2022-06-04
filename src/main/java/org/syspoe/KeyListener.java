@@ -7,10 +7,11 @@ public class KeyListener implements NativeKeyListener {
 
     @Override
     public void nativeKeyTyped(NativeKeyEvent nativeEvent) {
-        if(nativeEvent.getRawCode() == 96 && nativeEvent.getModifiers() == 2) {
+
+        if((nativeEvent.getRawCode() == 96 || nativeEvent.getKeyChar() == '`') && nativeEvent.getModifiers() == 2) {
             if(AutoClicker.clicker.isRunning) {
                 AutoClicker.clicker.stopThread();
-                System.out.println("Autoclicker stopped.");
+                System.out.println("Autoclicker stopped. Press [Ctrl + `] to start.");
             } else {
                 AutoClicker.createClicker();
             }

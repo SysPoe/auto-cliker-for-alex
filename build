@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+mvn clean compile package
+mv target/auto-cliker-for-alex-0.0.1alpha-shaded target/auto-cliker-0.0.1alpha.jar
