@@ -6,7 +6,7 @@
 
     <groupId>org.syspoe</groupId>
     <artifactId>auto-cliker-for-alex</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1alhpa</version>
     
     <dependencies>
         <dependency>

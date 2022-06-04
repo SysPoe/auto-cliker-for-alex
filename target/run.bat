@@ -1,0 +1,1 @@
+cmd.exe /C "java -jar auto-clicker-0.0.1alpha.jar"
