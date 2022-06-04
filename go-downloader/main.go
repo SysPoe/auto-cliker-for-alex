@@ -5,6 +5,7 @@ import (
 	"io";
 	"os/exec";
 	"runtime";
+	"fmt";
 )
 
 func main() {
@@ -20,6 +21,7 @@ func main() {
 	defer out.Close()
 	io.Copy(out, resp.Body)
 	if runtime.GOOS == "windows" {
+		fmt.Println("cmd.exe", "/C", "java", "-jar", "clicker.jar");
 		cmd := exec.Command("cmd.exe", "/C", "java", "-jar", "clicker.jar");
 		err := cmd.Run()
 		if err != nil {
@@ -28,6 +30,7 @@ func main() {
 		return
 	}
 	if runtime.GOOS != "windows" {
+		fmt.Println("lxterminal", "-e", "java", "-jar", "clicker.jar");
 		cmd := exec.Command("lxterminal", "-e", "java", "-jar", "clicker.jar")
 		err := cmd.Run()
 		if err != nil {
